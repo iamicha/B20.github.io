@@ -237,6 +237,7 @@ header {
 
 footer img {
   width: 125px;
+  float: left;
 }
 
 footer a {

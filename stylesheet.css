@@ -1,0 +1,336 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Comic Sans MS";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(images/4.jpg);
+  background-size: cover;
+  color: black;
+  text-align: left;
+}
+
+.top-wrapper h1 {
+  /* opacity: 0.7; */
+  font-size: 45px;
+  /* letter-spacing: 5px; */
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.col{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 41.66666667%;
+    text-align: right;
+    margin-left: 60%;
+}
+.col-4{
+  position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 33.33333333%;;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: right;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+    background-color: #a82d49;
+    color: white;
+    border: 3px solid #a82d49 !important;
+}
+
+.facebook {
+  background-color: #fff;
+  margin-right: 10px;
+  color: black;
+  border: 3px solid #a82d49 !important;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+  
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  /* background-color: rgba(34, 49, 52, 0.9); */
+  background-color: #b9576d;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 70px;
+  /* margin-top: 0px; */
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
+
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 0px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  font-size: 36px;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+/* .lesson-icon img{
+  width: 150%;
+  border-radius: 3px 3px 0 0;
+  text-align: center;
+} */
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.price-new{
+    font-weight: bold;
+    color: #a82d49;
+    font-size: 24px;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #a82d49;
+  cursor: pointer;
+  box-shadow: 0 7px #753b48;
+  color: white;
+  margin-top: 10px
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer a {
+  color: #b3aeb5;
+  font-size: 12px;
+  float: right;
+  padding: 0 25px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.intro-newsletter {
+	width: 55%;
+	margin: 0px auto;
+}
+
+.intro-newsletter p {
+	margin: 0;
+	font-size: 13px;
+	color: #fff;
+	opacity: 0.7;
+	padding: 15px 0 0;
+	display: table;
+	width: 100%;
+	letter-spacing: 0.2px;
+	font-weight: 400;
+}
+
+.intro-newsletter input {
+	height: 50px;
+	padding: 0 25px;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	font-weight: 400;
+	width: 98%;
+	background: transparent;
+	border: 2px solid #ddd;
+	color: #000;
+	border-radius: 4px;
+}
+
+#contact-form {
+	background: #a82d49;
+	padding: 100px 0;
+}
+
+#contactForm input {
+	height: 50px;
+	padding: 0 20px;
+	font-size: 14px;
+	letter-spacing: 0px;
+	font-weight: 400;
+	width: 50%;
+	border: none;
+	border-radius: 0px;
+	background: transparent;
+	border: 3px solid #e5e5e5;
+	color: #000;
+	font-weight: 700;
+  margin: 0 0 20px;
+  float: left;
+}
+
+#contactForm select {
+	height: 50px;
+	padding: 0 20px;
+	font-size: 14px;
+	letter-spacing: 0px;
+	font-weight: 400;
+	width: 50%;
+	border: none;
+	border-radius: 0px;
+	background: transparent;
+	border: 3px solid #e5e5e5;
+	color: #000;
+	font-weight: 700;
+  margin: 0 0 20px;
+  float: left;
+
+}
+
+#contactForm textarea {
+	height: 100px;
+	padding: 20px;
+	font-size: 14px;
+	letter-spacing: 0;
+	font-weight: 400;
+	width: 50%;
+	margin: 0 0 20px;
+	background: #fff;
+	border: 3px solid #e5e5e5;
+	border-radius: 0px;
+	color: #fff;
+}
